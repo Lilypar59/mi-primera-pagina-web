@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #e077b8;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las tarjetas de roles en Scrum */
+.role-card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .role-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .role-card h3 {
+    margin-top: 0;
+  }
+  
+  .role-description {
+    display: none;
+  }
+  
+  .role-card:hover .role-description {
+    display: block;
+  }
+  
+
