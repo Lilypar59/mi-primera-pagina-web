@@ -7,7 +7,7 @@
 		$address = $_POST['address'];
 		
 		mysqli_query($conn, "INSERT INTO `member` VALUE('', '$firstname', '$lastname', '$address')") or die(mysqli_errno());
-		header('location: index.php');
+		header('location: exportar.php');
 			
 	}
 ?>
